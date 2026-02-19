@@ -1,1 +1,1 @@
-
+These images provide a step-by-step visual guide illustrating the process of hosting a static website using an Amazon S3 bucket. Each image highlights a specific stage, from creating the S3 bucket and enabling static website hosting to uploading website files and configuring permissions. Together, they demonstrate how AWS can be used to deploy and deliver static web content efficiently.
