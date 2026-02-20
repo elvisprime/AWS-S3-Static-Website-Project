@@ -21,3 +21,4 @@ This project demonstrates how to host a static website using Amazon S3. The webs
  4. Enable ACLs:
     * While creating the bucket, navigate to the Object Ownership section and select ACLs enabled.
     * This option allows you to manage and customize permissions for individual objects within the bucket.
+ <img src="Documentation/Images/ACLenabled.png" width="600" height="186">
