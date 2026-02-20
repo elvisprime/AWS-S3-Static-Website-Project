@@ -12,4 +12,7 @@ This project demonstrates how to host a static website using Amazon S3. The webs
  1. Login to the [Amazon Management Console](https://aws.amazon.com)
  2. In the Management Console, search for `S3`
 <img src="Documentation/Images/Searchfors3.png" width="600" height="186">
- 3. Choose **Create Bucket**
+
+ 3. Choose Create Bucket
+    *  Give it a unique Bucket name (e.g, my-amazon-web-bucket).
+    * Select the AWS Region closest to your location. You can find the Region selector in the top right corner of the AWS Management Console, next to your account name.
