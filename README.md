@@ -10,4 +10,4 @@ This project demonstrates how to host a static website using Amazon S3. The webs
 * ### Make Object in your S3 Bucket Public
 ## Step 1: Create a Bucket in Amazon S3
  1. Login to the [Amazon Management Console](https://aws.amazon.com)
- 2. In the Management Console, search for 'S3'
+ 2. In the Management Console, search for `S3`
