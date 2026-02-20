@@ -22,3 +22,7 @@ This project demonstrates how to host a static website using Amazon S3. The webs
     * While creating the bucket, navigate to the Object Ownership section and select ACLs enabled.
     * This option allows you to manage and customize permissions for individual objects within the bucket.
  <img src="Documentation/Images/ACLenabled.png" width="600" height="186">
+
+ ## Step 2: Upload Website Content to your Bucket
+    * Upload the `index.html` file along with the extracted folder contents to the S3 bucket.
+    * Make sure the original folder structure is maintained during the upload to ensure the website functions correctly.
