@@ -44,7 +44,18 @@ This project demonstrates how to host a static website using Amazon S3. The webs
      
 <img src="Documentation/Images/staticweb.png" width="600" height="500">
 
-## Managing Public Access using ACLs (Access Control Lists)
+## Managing Public Access using ACLs 
    * Access Control Lists (ACLs) define who can access your S3 resources and what level of access they have. In this project, ACLs were configured to enable public access to the static website files.
 ## Why use ACLs?
    * ACLs let you assign specific read or write permissions to individual AWS accounts or make objects publicly accessible. They offer more fine-grained control at the object level compared to bucket policies.
+## Implementation steps
+   * Upload your website files to the S3 bucket.
+   * Select the uploaded files in the S3 console.
+   * Click on the `Actions` dropdown menu.
+   * Choose `Make public using ACL`.
+## Troubleshooting
+#### 403 Forbidden Error:
+  * If you see this error, verify that the objects in your S3 bucket have been granted public read access through ACL settings.
+  * Also happens when the file path is incorrect or the index document (e.g., index.html) is missing or wrongly named.
+## Additional Notes
+  * To prevent unnecessary charges, I removed the resources from my AWS console after completing the project. As a result, this GitHub repository now serves as the primary showcase of my work. I have carefully documented each step and included detailed explanations to provide a clear and comprehensive understanding of my approach.
