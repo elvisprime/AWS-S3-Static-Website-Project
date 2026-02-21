@@ -7,7 +7,7 @@ This project demonstrates how to host a static website using Amazon S3. The webs
 * ### Create a Bucket in Amazon S3
 * ### Upload Website Content to your Bucket
 * ### Configure a Static Website on Amazon S3
-* ### Make Object in your S3 Bucket Public
+* ### Access Amazon S3 Static Website
 ## Step 1: Create a Bucket in Amazon S3
  1. Login to the [Amazon Management Console](https://aws.amazon.com)
  2. In the Management Console, search for `S3`
@@ -35,3 +35,6 @@ This project demonstrates how to host a static website using Amazon S3. The webs
    * Enter `index.html` as the Index document.
    * (Optional) Specify a custom error page such as error.html under Error document.
 #### Save Changes
+## Step 4: Acess Amazon S3 Static Website
+   * Access your website using the bucket’s public URL. It usually follows this format:
+     `http://your-bucket-name.s3-website-region.amazonaws.com`
