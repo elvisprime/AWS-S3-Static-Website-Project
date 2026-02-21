@@ -35,6 +35,11 @@ This project demonstrates how to host a static website using Amazon S3. The webs
    * Enter `index.html` as the Index document.
    * (Optional) Specify a custom error page such as error.html under Error document.
 #### Save Changes
-## Step 4: Acess Amazon S3 Static Website
+<img src="Documentation/Images/configure.png" width="600" height="500">
+
+## Step 4: Access Amazon S3 Static Website
    * Access your website using the bucket’s public URL. It usually follows this format:
+     
      `http://your-bucket-name.s3-website-region.amazonaws.com`
+     
+<img src="Documentation/Images/staticweb.png" width="600" height="500">
